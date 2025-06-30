@@ -1,11 +1,9 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
 import google.generativeai as genai
 
 # Load API Key
-load_dotenv()
-GEMINI_API_KEY = os.getenv("AIzaSyAo4ClCX28GCfn_jUlg-SGEYhUJNrpdqCw")
+GEMINI_API_KEY = "AIzaSyAo4ClCX28GCfn_jUlg-SGEYhUJNrpdqCw"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Streamlit UI Setup
