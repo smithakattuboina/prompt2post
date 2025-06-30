@@ -5,12 +5,12 @@ import google.generativeai as genai
 
 # Load API Key
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("AIzaSyAo4ClCX28GCfn_jUlg-SGEYhUJNrpdqCw")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Streamlit UI Setup
 st.set_page_config(page_title='PROMPT 2 POST(P2P)')
-st.title('🎬 YT TITLE AND DESCRIPTION GENERATOR')
+st.title('🎬 welcome to prompt2post')
 st.write('Enter your video script or summary, our P2P will create a catchy title and optimized description.')
 
 # Input
